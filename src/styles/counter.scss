@@ -1,0 +1,12 @@
+.counter-wrapper {
+  text-align: center;
+  padding: 60px;
+  .number {
+    padding-bottom: 30px;
+    font-size: 40px;
+    color: rgb(0, 0, 0, 0.7);
+  }
+  .buttons > button {
+    @include button-style();
+  }
+}
