@@ -7,7 +7,7 @@ export default function ClockMount() {
   let [button, setButton] = useState("Mount");
 
   function handleClick() {
-    if (button == "Mount") {
+    if (button === "Mount") {
       setRender(true);
       setButton("Unmount");
     } else {
