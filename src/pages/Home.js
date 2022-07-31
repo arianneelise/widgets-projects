@@ -14,6 +14,10 @@ export default function Home() {
         <Widget name="greeting" img={greeting} />
         <Widget name="hide" img={hide} />
         <Widget name="remaining" img={cake} />
+        <p>
+          Look at the code on{" "}
+          <a href="https://github.com/arianneelise/widgets-projects">Github</a>
+        </p>
       </div>
     </div>
   );
