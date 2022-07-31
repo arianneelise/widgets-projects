@@ -16,7 +16,9 @@ export default function Home() {
         <Widget name="remaining" img={cake} />
         <p>
           Look at the code on{" "}
-          <a href="https://github.com/arianneelise/widgets-projects">Github</a>
+          <a href="https://github.com/arianneelise/widgets-projects" target="/">
+            Github
+          </a>
         </p>
       </div>
     </div>
