@@ -11,4 +11,19 @@
   }
 }
 
+@mixin component-wrapper {
+  color: $main-color;
+  text-align: center;
+  div {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button {
+    @include button-style();
+    margin-bottom: 20px;
+  }
+}
+
 $main-color: rgb(0, 0, 0, 0.6);
